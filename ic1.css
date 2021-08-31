@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  grid-template-columns: 30vh 30vh 30vh;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 8vh;
+  grid-column-gap: 8vh;
+  justify-content: center;
+}
+div {
+  background-color: aqua;
+  border: 5px solid black;
+  width: 30vh;
+  height: 30vh;
+}
+#one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#two {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#three {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+#four {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#five {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#six {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}

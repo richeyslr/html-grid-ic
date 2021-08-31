@@ -1,0 +1,108 @@
+body {
+  background-color: navy;
+}
+#wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  width: 70vw;
+  height: 70vh;
+}
+#one {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  background-color: orchid;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  padding: 4vh;
+}
+#two {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background-color: purple;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  padding: 4vh;
+
+}
+#three {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+}
+#four {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
+#five {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
+#six {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
+#seven {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
+#eight {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
+#nine {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background-color: oldlace;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  padding: 4vh;
+
+
+}
